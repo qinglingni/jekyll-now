@@ -16,13 +16,13 @@ Okay, what data science skills did I learn in the first week through Project Ben
 Project Benson requires us to download multiple .txt files from mta website. In this case, I wrote a Python script that allows me to download multiple files at once and combine them to one dataframe to save time. The key part of the learning is how to utilize Python datetime package to convert datetime to string, and does datetime calculation. It's important just because datetime operations are very different in different languages.
 
 For example in below code, **datetime.strptime** converts datestring to desired date format, and **.date()** extracts the date portion. **timedelta** in datetime package performs the date calculation, and **date.weekday()** returns the day of week value from 0 to 6 with 0 being Monday, and 6 being Sunday.
-```
+```python
 start_date = datetime.strptime(start_date, '%Y-%m-%d').date()
 start_date = start_date + timedelta(days = (5 - start_date.weekday()))
 ```
 ### 2. Data Transformation
 MTA entry and exit data is presented in cumulative form in 4-hour time interval, meaning calculation needs to be done in order to get number of entries and exits for a particular day. In order to do the calculation, we need to reorganize the data in the dataframe so that we can use second day first entry number minus first day first entry number to get the net entries for first day. The code for doing this part is as below:
-```
+```python
 #Get only the first entry data for the combined key of ["C/A", "UNIT", "SCP", "STATION", "DATE"]
 turnstiles_daily = df.groupby(["C/A", "UNIT", "SCP", "STATION", "DATE"]).ENTRIES.first().reset_index()
 
@@ -52,7 +52,7 @@ turnstiles_daily["DAILY_ENTRIES"] = turnstiles_daily.apply(get_daily_counts, axi
 ```
 ### 3. Data Visulization
 With any type of data analytics, visualization is always the key either to do data discovery or to communicate results to your audience. For the business proposal our team came up with, time series plot of subway station data is very important for us to identify where opportunities lie. We want to use recent trend to predict if it's a good time for a gym company or a food truck company to enter certain neighborhood(s). I created a function to allow me to plot time series (trend) for any given station:
-```
+```python
 data = pd.DataFrame(turnstiles_daily[['STATION','DATE','DAILY_ENTRIES']])
 def plot_date(stationname):
     plot_data = data.set_index('STATION').loc[stationname]
