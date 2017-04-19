@@ -64,8 +64,8 @@ def plot_date(stationname):
 plot_date('59 ST')
 ```
 **_ Below is the sample output of one station's entry trend of 2 weeks_**
-![alt_tag]https://github.com/qinglingni/qinglingni.github.io/blob/master/mta_timeseries.png
+![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/mta_timeseries.png)
 
 ## Climbing Countinues
 Time went by fast and slow for the first week, there is a huge amount of new knowledge poured in. I am not claiming I understand all, but as Einstein said: "It's not that I am so smart, it’s just that I stay with problems longer". I really enjoys what you can uncover from the data out in the wild world, and I will enjoy all the awards along my climb up to the data science peak. And hopefully I can cracking down data in my sleep like:
-![alt_tag]https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG
+![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG)
