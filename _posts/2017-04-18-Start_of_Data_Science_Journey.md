@@ -3,7 +3,7 @@
 
 Choosing to seriously take on data science journey is no small decision for me, not only because I have been on a good career path, but also because I knew I almost have to start from scratch on every technical skills required by data science discipline. It's like I am going to climb the Hymalayas when I am not adequately equipped. But here I am, starting the climb because I believe there will be a lot of rewards are waiting for me along the road and on the top.
 
-![alt tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3507.jpg)
+![alt tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3507.jpg?raw=true)
 
 Can you predict how the week would look like when you see this face on Monday morning? It's going to be great! Well, that's when you don't have enough observations to make the prediction (BTW, he is our puppy - Epsilon, who just joined the family on Sunday - April 9th). As the week went on, there were two words dominated the theme: Sleepless and Overwhelmed. But... did I say there will be rewards on the way up? It was very rewarding to put the presentation together with my teammates for Project Benson. The process allowed us to have a peek on data science project in real life. It is about collecting data, understanding data, forming hypothesis or business ideas, cleaning and analyzing data, presenting results, and repeating the process to fine tune models. The goal of Project Benson is to use NYC MTA data as basis to come up with an business idea to pitch, and of course pitch with the data insights. I will cover the data science learning below
 
@@ -64,8 +64,8 @@ def plot_date(stationname):
 plot_date('59 ST')
 ```
 ** _Below is the sample output of one station's entry trend of 2 weeks_ **
-![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/mta_timeseries.png)
+![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/mta_timeseries.png?raw=true)
 
 ## Climbing Countinues
 Time went by fast and slow for the first week. There is a huge amount of new knowledge poured in that I feel I did not have enough time to digest; at the same time, days seemed to be long when I was in confused mode. I know I haven't understood it all, but as Einstein said: "It's not that I am so smart, it’s just that I stay with problems longer". I really enjoys what you can uncover from the data out in the wild world, and I will enjoy all the awards along my climb up to the data science peak. And hopefully I can cracking down data in my sleep like:
-![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG)
+![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG?raw=true)
