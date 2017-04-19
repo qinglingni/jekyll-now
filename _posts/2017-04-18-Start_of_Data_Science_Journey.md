@@ -51,7 +51,7 @@ def get_daily_counts(row, max_counter):
 turnstiles_daily["DAILY_ENTRIES"] = turnstiles_daily.apply(get_daily_counts, axis=1, max_counter=1000000)
 ```
 ### 3. Data Visulization
-With any data analytics, visualization is always key either to do data discovery or to communicate results to your audience. For the business proposal our team came up with, time series plot of subway station data is very important for us to identify where opportunities lie. We want to use recent trend to predict if it's a good time for a gym company or a food truck company to enter certain neighborhood(s). I created a function to allow me to plot time series (trend) for any given station:
+With any type of data analytics, visualization is always the key either to do data discovery or to communicate results to your audience. For the business proposal our team came up with, time series plot of subway station data is very important for us to identify where opportunities lie. We want to use recent trend to predict if it's a good time for a gym company or a food truck company to enter certain neighborhood(s). I created a function to allow me to plot time series (trend) for any given station:
 ```
 data = pd.DataFrame(turnstiles_daily[['STATION','DATE','DAILY_ENTRIES']])
 def plot_date(stationname):
