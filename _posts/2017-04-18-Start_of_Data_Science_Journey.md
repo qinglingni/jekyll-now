@@ -1,7 +1,7 @@
 # Climbing the Data Science Mountain
 > "It’s not that I’m so smart, it’s just that I stay with problems longer." -Albert Einstein
 
-Choosing to seriously take on data science journey is no small decision for me, not only because I have been on a good career path, but also because I know I almost have to start from scratch on every technical skills required by data science discipline. It's like I am going to climb the Hymalayas when I am not adequately equipped. But here I am, starting the climb because I believe there will be a lot of rewards are waiting for me along the road and on the top.
+Choosing to seriously take on data science journey is no small decision for me, not only because I have been on a good career path, but also because I knew I almost have to start from scratch on every technical skills required by data science discipline. It's like I am going to climb the Hymalayas when I am not adequately equipped. But here I am, starting the climb because I believe there will be a lot of rewards are waiting for me along the road and on the top.
 
 ![alt tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3507.jpg)
 
@@ -63,9 +63,9 @@ def plot_date(stationname):
     return plt.plot(x,y)
 plot_date('59 ST')
 ```
-**_ Below is the sample output of one station's entry trend of 2 weeks_**
+** _Below is the sample output of one station's entry trend of 2 weeks_ **
 ![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/mta_timeseries.png)
 
 ## Climbing Countinues
-Time went by fast and slow for the first week, there is a huge amount of new knowledge poured in. I am not claiming I understand all, but as Einstein said: "It's not that I am so smart, it’s just that I stay with problems longer". I really enjoys what you can uncover from the data out in the wild world, and I will enjoy all the awards along my climb up to the data science peak. And hopefully I can cracking down data in my sleep like:
+Time went by fast and slow for the first week. There is a huge amount of new knowledge poured in that I feel I did not have enough time to digest; at the same time, days seemed to be long when I was in confused mode. I know I haven't understood it all, but as Einstein said: "It's not that I am so smart, it’s just that I stay with problems longer". I really enjoys what you can uncover from the data out in the wild world, and I will enjoy all the awards along my climb up to the data science peak. And hopefully I can cracking down data in my sleep like:
 ![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG)
