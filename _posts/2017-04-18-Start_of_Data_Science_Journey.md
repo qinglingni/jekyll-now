@@ -1,7 +1,7 @@
 # Climbing the Data Science Mountain
 > "It’s not that I’m so smart, it’s just that I stay with problems longer." -Albert Einstein
 
-Choosing to seriously take on data science journey is no small decision for me, not only because I have been on a good career path, but also because I know I almost have to start from scratch on every technical skills required by data science discipline. It's like I am going to when I am not adequately equipped. But here I am, starting the climb because I believe there will be a lot of rewards are waiting for me along the road and on the top.
+Choosing to seriously take on data science journey is no small decision for me, not only because I have been on a good career path, but also because I know I almost have to start from scratch on every technical skills required by data science discipline. It's like I am going to climb the Hymalayas when I am not adequately equipped. But here I am, starting the climb because I believe there will be a lot of rewards are waiting for me along the road and on the top.
 
 ![alt tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3507.jpg)
 
