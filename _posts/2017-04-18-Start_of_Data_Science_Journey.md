@@ -68,4 +68,4 @@ plot_date('59 ST')
 
 ## Climbing Countinues
 Time went by fast and slow for the first week. There is a huge amount of new knowledge poured in that I feel I did not have enough time to digest; at the same time, days seemed to be long when I was in confused mode. I know I haven't understood it all, but as Einstein said: "It's not that I am so smart, it’s just that I stay with problems longer". I really enjoys what you can uncover from the data out in the wild world, and I will enjoy all the awards along my climb up to the data science peak. And hopefully I can cracking down data in my sleep like:
-![alt_tag](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG?raw=true)
+![](https://github.com/qinglingni/qinglingni.github.io/blob/master/IMG_3520.JPG?raw=true)
