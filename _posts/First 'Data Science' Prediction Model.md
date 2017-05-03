@@ -1,7 +1,9 @@
 
 > "We shall not cease from exploration, and the end of all our exploring will be to arrive where we started and know the place for the first time." - T.S Eliot
 
-This quote means a lot to me and in different ways while working on building my first official 'data science' prediction mode a.k.a - Project Luther. Project Luther is a project where we use Regression model to predict something we choose, and also collect our own data by scraping website(s). It is actually a pretty exciting project to me that I finally get to build a 'forecast' model by not using Excel but by programming!
+This quote means a lot to me and in different ways while working on building my first official 'data science' prediction mode a.k.a - Project Luther. To me, data science is an art of smart exploration, and we all need to come back to where we started to update our knowledge about the place.
+
+Project Luther is a project where we use Regression model to predict something we choose, and also collect our own data by scraping website(s). It is actually a pretty exciting project to me that I finally get to build a 'forecast' model by not using Excel but by programming!
 
 I don't know much about Luther, but I certainly wish I could be Sherlock, that way I can solve my case easily with 100% accuracy. Now comes the project story...
 
