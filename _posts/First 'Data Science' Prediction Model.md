@@ -24,15 +24,15 @@ This is the most important stage for building the models. It is a challenge for 
 2. I used the rating data to generate features even in holdout data set, so I'm using future data to predict future data
 3. Because I unpacked directors, actors, writers etc. where there were multiple of them for the same movie to different rows, my movie title is no longer unqiue in the data set. When I did the train, test split, training data can also leak into test data
 
-Now I learned all different ways to cause data leakage! Below is a longer list from Kaggle:
-	•	Leaking test data into the training data.
-	•	Leaking the correct prediction or ground truth into the test data.
-	•	Leaking of information from the future into the past.
-	•	Retaining proxies for removed variables a model is restricted from knowing.
-	•	Reversing of intentional obfuscation, randomization or anonymization.
-	•	Inclusion of data not present in the model's operational environment.
-	•	Distorting information from samples outside of scope of the model's intended use.
-	•	Any of the above present in third party data joined to the training set.
+Now I learned few different ways of causing **data leakage**! How about know it all, so here goes a longer list from Kaggle:
+	* Leaking test data into the training data.
+	* Leaking the correct prediction or ground truth into the test data.
+	* Leaking of information from the future into the past.
+	* Retaining proxies for removed variables a model is restricted from knowing.
+	* Reversing of intentional obfuscation, randomization or anonymization.
+	* Inclusion of data not present in the model's operational environment.
+	* Distorting information from samples outside of scope of the model's intended use.
+	* Any of the above present in third party data joined to the training set.
 
 Also, there is another inherent problem with the data set:
 Only about 20-25% directors, actors, and writers had 3 or above movies in the data set, so by using this data set to predict rating for specific movie, the model pretty much remembered most movies.
