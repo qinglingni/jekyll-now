@@ -38,7 +38,7 @@ Also, there is another inherent problem with the data set:
 Only about 20-25% directors, actors, and writers had 3 or above movies in the data set, so by using this data set to predict rating for specific movie, the model pretty much remembered most movies.
 
 ## Modeling Results
-Due to the time limitation, I did not have time to fix the mistakes I made to the dataset. I had to limit the few numerical features I have, as Year, Month, Day, Weekday, runtime, Domestic Gross, and Budget. And the Oscar goes to..........no one. I tried different models by using different combinations of these features. The best one is a 3 degree Polynomial model with Year, Month, Weekday, and Budget, and the test R^2 is only 0.06.
+Due to the time limitation, I did not have time to fix the mistakes I made to the feature engineering. I had to limit my model to the few numerical features I have, as Year, Month, Day, Weekday, runtime, Domestic Gross, and Budget. And the Oscar goes to..........no one. I tried different models by using different combinations of these features. The best one is a 3 degree Polynomial model with Year, Month, Weekday, and Budget, and the test R^2 is only 0.06.
 
 Even though I did not find a model that can predict IMDB rating, I enjoyed the learning of different ways of doing feature seletion and engineering.
 
