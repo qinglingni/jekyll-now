@@ -43,7 +43,7 @@ Due to the time limitation, I did not have time to fix the mistakes I made to th
 Even though I did not find a model that can predict IMDB rating, I enjoyed the learning of different ways of doing feature seletion and engineering.
 
 ## Fun Facts about Movies
-1. Worst movies are pushed out in January
-2. Most movies were released on Fridays (you might have already known)
+1. Worst movies are usually pushed out in January
+2. Most movies are released on Fridays (you might have already known)
 3. IMDB rating is slightly negative correlated with budget
 4. The director has the highest gross per movie is John Dahl (from 1970 to 2017)
